@@ -1,0 +1,41 @@
+.project-card{
+    background: rgba(22,17,47,0.398);;
+    border-radius: 10px;
+    border:2px solid #9561ff;
+    padding:25px;
+    margin:0 60px;
+}
+
+.project-card h6{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.duration{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    background: linear-gradient(180deg, #260ac4 0%, #32069e 100%);
+    border-radius: 5px;
+    padding:5px 10px;
+    margin-bottom: 20px;
+}
+
+.project-card ul li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 10px;
+}
+
+.project-card ul li::after{
+    content: '\2B9A';
+    position: absolute;
+    color: lime;
+    left:-20px;
+    top:0px;
+}
+

@@ -1,0 +1,98 @@
+.mobile-menu{
+width:40%;
+height: 100vh;
+display: none;
+background-color: rgba(0,0,0,0.3);
+position: fixed;
+left: 0;
+top:0;
+z-index: 999 !important;
+opacity: 0;
+box-shadow: 0px 29px 80px rgba(0,0,0,0.3);
+transition: all 0.4s ease;
+transform: translateX(-100vw);
+
+}
+
+.mobile-menu-container{
+    width: 60vw;
+    height: 100vh;
+    background-color: #342864;
+    padding: 30px;
+}
+
+.mobile-menu.active{
+opacity:1;
+transform:translateX(0);
+
+}
+
+.mobile-menu ul{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    list-style: none;
+    margin-left: -10px;
+}
+
+
+
+
+.contact-me{
+    text-decoration: none;
+    height: 50px;
+    width: 160px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(180deg, #260ac4 0%, #32069e 100%);
+    padding: 0;
+    border: none;
+    outline: 2px solid transparent;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+
+}
+.contact-me:hover{
+    background: #6ab3ff;
+    outline: 3.5px solid yellow;
+}
+
+.contact-me:hover{
+    transition: all 0.35s ease;
+    transform:translateY(5px);
+
+
+}
+
+@media(max-width:769px){
+    .mobile-menu{
+        display:block;
+    }
+}
+
+@media(max-width:426px) {
+    .contact-me{
+        font-size:17px ;
+    height: 50px;
+    width:120px;}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

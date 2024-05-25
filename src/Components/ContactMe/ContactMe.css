@@ -1,0 +1,35 @@
+.contact-container{
+    margin:60px 0;
+    position: relative;
+}
+
+.contact-container button{
+    -webkit-text-fill-color: white;
+    width: 200px; /* Set a fixed width */
+    height: 75px;
+    font-size:25px;
+    font-weight: 700px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    
+    border-radius: 10px;
+    border: 2px solid #9561ff;
+    padding: 15px;
+    text-align: center;
+    backdrop-filter: blur(15px);
+    background: rgba(22,17,47,0.398);
+    transition:all 0.3s ease;
+}
+
+.contact-container button:hover{
+    transform: translateX(5px) translateY(5px);
+    background: linear-gradient(180deg, #260ac4 0%, #32069e 100%);
+}
+
+
+.contact-container{
+    display:flex;
+    gap:45px;
+
+}
+

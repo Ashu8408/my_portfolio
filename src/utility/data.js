@@ -94,16 +94,7 @@ export const PROJECTS = [
         ],
     },
 
-    {
-        title: "5)  Digital Portfolio",
-        date: "2024",
-        about: ["This digital portfolio project is a showcase of my skills, projects, and achievements.",
-            "The project demonstrates proficiency in React, state management, and user interface design, demonstrating the ability to develop responsive and interactive web applications in informative manner.",
-            "It includes a collection of my work, such as projects, articles, and other relevant information.",
-            "The portfolio is designed to highlight my skills and experiences to potential employers."
-
-        ]
-    },
+   
 
     {
         title: "6)  Google Clone App",

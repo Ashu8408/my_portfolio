@@ -55,7 +55,7 @@
 }
 
 .project-card ul li::after {
-  content: '\2B9A';
+  content: '\25B6';
   position: absolute;
   color: lime;
   left: -18px;

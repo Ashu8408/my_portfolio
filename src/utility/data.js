@@ -97,7 +97,7 @@ export const PROJECTS = [
         ],
     },
 
-    {
+     {
         title: "5)  Digital Portfolio",
         project_link: "https://my-portfolio-bay-pi-53.vercel.app/",
         date: "2024",
@@ -108,6 +108,8 @@ export const PROJECTS = [
 
         ]
     },
+
+   
 
     {
         title: "6)  Google Clone App",

@@ -14,7 +14,7 @@ const ContactInfoCard = ({iconUrl, text}) => {
                 </div>
 
                 <div className='contact-icon'>
-                <a href="https://www.linkedin.com/in/ashu-jaiswal/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/ashu8408/" target="_blank" rel="noopener noreferrer">
                     <img src = './assets/images/linkedinblue.png' alt='LinkedIn'/>
                     </a>
                 </div>

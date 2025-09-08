@@ -60,13 +60,8 @@ transform:translateX(0);
 .contact-me:hover{
     background: #6ab3ff;
     outline: 3.5px solid yellow;
-}
-
-.contact-me:hover{
     transition: all 0.35s ease;
     transform:translateY(5px);
-
-
 }
 
 @media(max-width:769px){

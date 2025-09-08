@@ -1,50 +1,92 @@
-.contact-container{
-    display: flex;
-    align-items: center;
-    position: relative;
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  position: relative;
+  padding: 20px;
+  flex-wrap: wrap;
 }
 
-.contact-content{
-    flex:1;
+.contact-content {
+  flex: 1;
+  min-width: 280px;
 }
 
-.contact-img{
-    flex:1;
-    display:flex;
+.contact-img {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-top: 0;
+}
+
+.contact-img > div {
+  display: flex;
+  align-items: flex-end;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-icon {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 12px;
+  background: rgba(22, 17, 47, 0.45);
+  border: 2px solid #6852baba;
+  transition: transform 0.3s ease;
+}
+
+.contact-icon img {
+  width: 60px;
+  height: auto;
+  margin-bottom: -6px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.contact-icon img:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 992px) {
+  .contact-container {
     flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    margin-top: 0px;
-}
-
-.contact-img >div {
-    display: flex;
-    align-items: flex-end;
-    gap:50px;
-}
-
-.contact-icon{
-    width: 90px;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
-    border-radius: 10px;
-    background: rgba(22,17,47,0.398);
+    gap: 30px;
+  }
 
-    border: 2px solid #6852baba;
+  .contact-img {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .contact-img > div {
+    gap: 20px;
+  }
 }
 
-.contact-icon img{
-    width: 72px;
-    height: auto;
-    margin-bottom: -9px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
+@media (max-width: 576px) {
+  .contact-container {
+    padding: 15px;
+    gap: 20px;
+  }
 
-.contact-icon img:hover{
-    transform: translateY(-5px);
+  .contact-icon {
+    width: 65px;
+    height: 65px;
+  }
 
+  .contact-icon img {
+    width: 48px;
+    margin-bottom: -4px;
+  }
 }
